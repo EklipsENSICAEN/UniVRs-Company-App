@@ -7,31 +7,33 @@ L'application permet à l'enteprise de scanner un QR Code joueur et d'afficher l
 
 ## Fonctionnalités
 ### Page d'accueil
-<img src="img/homepage.univrs.client.jpg" width="250" height="542">
+<img src="img/entreprise_homepage.jpg" width="250" height="542">
 
-La page d'accueil contient un bouton qui invite l'entreprise à scanner des QR Codes.
+La page d'accueil contient un bouton qui invite l'entreprise à scanner des QR Codes joueur.
 
-### Formulaire d'inscription
-<img src="img/subscriptionform.univrs.client.jpg" width="250" height="542">
+### Scanner
+<img src="img/entreprise_scann_pass.jpg" width="250" height="250">
 
-Le formulaire d'inscription invite les utilisateurs à renseigner les informations suivantes :
+La page de scanner est liée à la caméra et nécessite donc que l'utilisateur autorise l'accès de l'application à sa caméra.
+Une fois un QR Code scanné, un bouton apparait au-dessus de la page pour inviter l'entreprise à afficher les données lues.
+
+### Pass et son statut
+<img src="img/entreprise_validated_pass.png" width="250" height="542">
+
+Cette page affiche les informations du pass :
+- pseudonyme
 - nom
 - prénom
-- pseudonyme
 - e-mail
 - age
 
-Une fois ces informations remplies, l'utilisateur pourra appuyer sur le bouton de génération et ainsi obtenir son QR Code joueur.
-
-### QR Code
-<img src="img/qrcode.univrs.client.jpg" width="250" height="542">
-
-La page QR Code affiche le QR Code joueur à présenter à l'entreprise pour s'enregistrer.
-
+De plus, le statut du pass est indiqué en bas de page.
+Si le pass est validé alors l'entreprise peut utiliser le pass pour connecter le jouer au salon UniVRs.
 
 ## Technologies  
 Javascript, JSON et React.
 Ces technologies ont été abordés par les développeurs lors d'anciens stages.
 L'application créée peut être utilisée avec plusieurs systèmes d'exploitation et est donc portable.
 
-## Outils de développement
+## Données  
+Aucunes données ne sont collectées par cette application : elles sont uniquement faites pour être lues.
