@@ -7,7 +7,7 @@ Projet intesif 3A Application entreprise
 -
 
 ## Fonction  
-L'application permet à l'utilisateur de d'acheter le pass UniVRs en s'inscrivant, se connecter et générer son QR Code joueur à présenter dans les salles VR.
+L'application permet aux magasins de scanner un QR Code joueur et d'afficher ses informations.
 
 ## Fonctionnalités
 -
