@@ -31,9 +31,7 @@ De plus, le statut du pass est indiqué en bas de page.
 Si le pass est validé alors l'entreprise peut utiliser le pass pour connecter le jouer au salon UniVRs.
 
 ## Technologies  
-Javascript, JSON et React.
-Ces technologies ont été abordés par les développeurs lors d'anciens stages.
-L'application créée peut être utilisée avec plusieurs systèmes d'exploitation et est donc portable.
+Nous avons utilisé le Framework d'application mobile React-natif pour développer les 3 pages de l'application. Ce Framework se base sur le langage javascript ce qui permet de développer et de déployer rapidement grâce à sa vitesse d'execution. En plus, l'application est compatible avec Android et IOS ce qui permet d'éviter les problèmes de versions et du multi-platformes.
 
 ## Données  
 Aucunes données ne sont collectées par cette application : elles sont uniquement faites pour être lues.
